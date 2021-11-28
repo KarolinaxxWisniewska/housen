@@ -1,0 +1,185 @@
+/* global section */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(121.63deg, #875EFF 2.17%, rgba(83, 29, 238, 0.651031) 59.11%, rgba(94, 38, 253, 0.42) 96.81%);
+    padding: 88px 20px;
+    font-family: Gordita Regular;
+}
+
+/* kocham Karolinęęęęęęę wiśniewską! */
+
+.container {
+    background-color: rgba(255, 255, 255, 0.932);
+    max-width: 1440px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    border-radius: 3px;
+    padding: 10px 30px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    transition: transform .2s, background-color .2s;
+    background-color: #fff;
+    color: #875EFF;
+    border-color: #875EFF;
+}
+
+.btn:hover {
+    background-color: rgba(228, 222, 222, 0.534);
+}
+
+.btn:active {
+    transform: translateY(3px);
+}
+
+.btn--secondary {
+    background-color: #875EFF;
+    color: #fff;
+    border: none;
+}
+
+.btn--secondary:hover {
+    background-color: #472e92;
+}
+
+.btn--secondary:active {
+    transform: translateY(3px);
+}
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 24px 20px;
+}
+
+.header__list {
+    color: #272727;
+    display: flex;
+}
+
+.header__list-element {
+    margin-right: 20px;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+}
+
+/* main */
+
+.main {
+    padding: 124px 20px 184px;
+}
+
+.main__heading {
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+
+.main__subheading {
+    font-size: 22x;
+    letter-spacing: -0.04em;
+    max-width: 680px;
+    text-align: center;
+    margin: 0 auto 40px;
+}
+
+.main__search-container {
+    max-width: 750px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 12px 12px 12px 24px;
+    background-color: #fff;
+    box-shadow: 0px 2px 24px rgb(0 0 0 / 4%);
+}
+
+.main__search-input {
+    border: none;
+    margin-right: auto;
+}
+
+.main__hr {
+    width: 1px;
+    height: 42px;
+    color: #F7F7F7;
+    border-radius: 1px;
+    margin: 0 24px 0 20px;
+}
+
+.main__list {
+    max-width: 750px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__list-element {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.main__union {
+    padding-right: 8px;
+    margin-left: auto;
+}
+
+.main__line {
+    padding-left: 26px;
+}
+
+/* footer */
+
+.footer {   
+    background-color: #fff;
+    color: #A8A8A8;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1179px;
+    margin: 0 auto;
+    padding: 18px 0px;
+}
+
+.footer__list {
+    display: flex;
+}
+
+.footer__list-item {
+    margin-right: 20px;
+}
+
+.footer__list-item:last-child {
+    margin-right: 0px;
+}
